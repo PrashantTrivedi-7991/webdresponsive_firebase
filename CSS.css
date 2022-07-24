@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(36, 36, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    border: black;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp {
+    width: 250px;
+}
+
+.formcontainer {
+    width: 300px;
+    height: 250px;
+    background-color: white;
+}
+
+.message {
+    height: 50px;
+}
+
+#btn {
+    width: 60px;
+    background-color: blue;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
