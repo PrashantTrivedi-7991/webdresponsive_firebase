@@ -44,3 +44,13 @@ body {
     height: 25px;
     border-radius: 5px;
 }
+
+@media Screen and (max-width:400px) {
+    .container {
+        width: 250px;
+        height: 150px;
+    }
+    .inp {
+        width: 200px;
+    }
+}
